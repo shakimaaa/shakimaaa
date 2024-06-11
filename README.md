@@ -1,11 +1,3 @@
-- 👋 Hi, I’m @shakimaaa
-- 👀 I’m interested in ros2 and ros2_control and 自动驾驶
-- 🌱 I’m currently learning ros2_control
-- 📫 How to reach me zbohao7@gmail.com
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
-
-
 ### Hi there 👋,I'm shakimaaa.
 
 - 🔭 I’m currently working on vision about robomaster.
@@ -14,9 +6,9 @@
 - 📫 How to reach me: zbohao7@gmail.comm
 - 😄 Read more about my DOCUMENTATION: [here](https://imca-vision-web.readthedocs.io/)
 
-![](https://github-readme-stats.vercel.app/api?username=wisdom-zhe&show_icons=true&theme=transparent)
+![](https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&theme=transparent)    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
 
-You are my ![Visitor Count](https://profile-counter.glitch.me/wisdom-zhe/count.svg) visitor,Thank You!:kissing_heart::kissing_heart:
+You are my ![Visitor Count](https://profile-counter.glitch.me/shakimaaa/count.svg) visitor,Thank You!:kissing_heart::kissing_heart:
 
 ### My Skill Set
 
