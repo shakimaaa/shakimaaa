@@ -2,6 +2,7 @@
 - 👀 I’m interested in ros2 and ros2_control and 自动驾驶
 - 🌱 I’m currently learning ros2_control
 - 📫 How to reach me zbohao7@gmail.com
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
 
 <!---
 shakimaaa/shakimaaa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
