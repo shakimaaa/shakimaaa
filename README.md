@@ -37,13 +37,6 @@
 
 ---
 
-### 📰 Latest Docs / Blog
-<!-- BLOG-POST-LIST:START -->
-<!-- 这里将由 GitHub Action 自动填充最近的文章/文档更新 -->
-<!-- BLOG-POST-LIST:END -->
-
----
-
 ### 🎯 Visitor Counter
 You are my ![Visitor Count](https://profile-counter.glitch.me/shakimaaa/count.svg) visitor — **Thank You!** ❤️
 
