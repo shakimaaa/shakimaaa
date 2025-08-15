@@ -1,0 +1,28 @@
+name: Update README with Recent Activity
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # 每12小时更新一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: JamesIves/github-pages-deploy-action@v4 # 预热 token（可选）
+        with:
+          branch: gh-pages
+          folder: .
+        continue-on-error: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Generate activity
+        uses: jamesgeorge007/github-activity-readme@v0.3.0
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_LINES: 8
