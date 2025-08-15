@@ -1,30 +1,47 @@
-### Hi there 👋, I'm **Shakimaaa**
+<h1 align="center">Hi there 👋, I'm <b>Shakimaaa</b></h1>
+<p align="center">
+  Robotics & Vision · C++ · ROS2 · RoboMaster
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?pause=800&width=520&lines=Robotics+%26+Vision+Enthusiast;RoboMaster+Vision+%7C+C%2B%2B+%7C+ROS2;Learning+ros2_control+%26+Nav2)](https://git.io/typing-svg)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?pause=800&width=420&lines=Robotics+%26+Vision;RoboMaster+Vision+%7C+C%2B%2B+%7C+ROS2;Learning+ros2_control+%26+Nav2" alt="typing" />
+</p>
 
-- 🔭 Working on **vision systems** for RoboMaster  
-- 🌱 Learning **ros2_control** and **Nav2**  
-- 💬 Ask me about **C++ / ROS / RoboMaster**  
-- 📫 Email: **[zbohao7@gmail.com](mailto:zbohao7@gmail.com)**  
-- 📄 Docs: **[imca-vision-web](https://imca-vision-web.readthedocs.io/)**
+<p align="center">
+  🔭 Working on <b>vision systems</b> for RoboMaster ·
+  🌱 Learning <b>ros2_control</b> & <b>Nav2</b> ·
+  💬 Ask me about <b>C++ / ROS / RoboMaster</b>
+</p>
+
+<p align="center">
+  📫 <a href="mailto:zbohao7@gmail.com">zbohao7@gmail.com</a> ·
+  📄 <a href="https://imca-vision-web.readthedocs.io/">imca-vision-web</a>
+</p>
 
 ---
 
 ### 🛠️ Tech Stack
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-humble-blue?style=for-the-badge&logo=ros)
-![Nav2](https://img.shields.io/badge/Nav2-navigation-blueviolet?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS2-Humble-22314E?style=flat-square&logo=ros" />
+  <img src="https://img.shields.io/badge/Nav2-Navigation-6A5ACD?style=flat-square" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+</p>
 
 ---
 
 ### 📊 GitHub Stats
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&theme=transparent)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
+
+<img
+  src="https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&hide_title=true&hide_rank=false&theme=transparent&include_all_commits=true&card_width=420"
+  alt="stats" />
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=transparent&card_width=420"
+  alt="top-langs" />
 
 </div>
 
@@ -38,8 +55,11 @@
 ---
 
 ### 🎯 Visitor Counter
-You are my ![Visitor Count](https://profile-counter.glitch.me/shakimaaa/count.svg) visitor — **Thank You!** ❤️
+<p>
+  <!-- 方案A：原 glitch 计数器，使用 <img> 更稳定 -->
+  <img src="https://profile-counter.glitch.me/shakimaaa/count.svg" alt="visitor count" />
+</p>
 
 ---
 
-> 💡 _"Building robots is not just coding; it's teaching machines to see and act."_  
+> _"Building robots is not just coding; it's teaching machines to see and act."_
