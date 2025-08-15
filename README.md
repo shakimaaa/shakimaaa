@@ -1,24 +1,52 @@
-### Hi there 👋,I'm shakimaaa.
+### Hi there 👋, I'm **Shakimaaa**
 
-- 🔭 I’m currently working on vision about robomaster.
-- 🌱 I’m currently learning ros2_control and Nav2.
-- 💬 Ask me about anything related to c++/ros and robomaster.
-- 📫 How to reach me: zbohao7@gmail.comm
-- 😄 Read more about my DOCUMENTATION: [here](https://imca-vision-web.readthedocs.io/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?pause=800&width=520&lines=Robotics+%26+Vision+Enthusiast;RoboMaster+Vision+%7C+C%2B%2B+%7C+ROS2;Learning+ros2_control+%26+Nav2)](https://git.io/typing-svg)
 
-![](https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&theme=transparent)   
+- 🔭 Working on **vision systems** for RoboMaster  
+- 🌱 Learning **ros2_control** and **Nav2**  
+- 💬 Ask me about **C++ / ROS / RoboMaster**  
+- 📫 Email: **[zbohao7@gmail.com](mailto:zbohao7@gmail.com)**  
+- 📄 Docs: **[imca-vision-web](https://imca-vision-web.readthedocs.io/)**
 
-   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
+---
 
-You are my ![Visitor Count](https://profile-counter.glitch.me/shakimaaa/count.svg) visitor,Thank You! :kissing_heart: :kissing_heart: :heartpulse:
+### 🛠️ Tech Stack
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ROS2](https://img.shields.io/badge/ROS2-humble-blue?style=for-the-badge&logo=ros)
+![Nav2](https://img.shields.io/badge/Nav2-navigation-blueviolet?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-### The Title
+---
 
-![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+### 📊 GitHub Stats
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&theme=transparent)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shakimaaa&layout=compact&theme=tokyonight)
 
+</div>
 
+---
 
-<!---
-shakimaaa/shakimaaa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 🔥 Recent Activity
+<!--START_SECTION:activity-->
+<!-- 这里将由 GitHub Action 自动填充你的最近活动 -->
+<!--END_SECTION:activity-->
+
+---
+
+### 📰 Latest Docs / Blog
+<!-- BLOG-POST-LIST:START -->
+<!-- 这里将由 GitHub Action 自动填充最近的文章/文档更新 -->
+<!-- BLOG-POST-LIST:END -->
+
+---
+
+### 🎯 Visitor Counter
+You are my ![Visitor Count](https://profile-counter.glitch.me/shakimaaa/count.svg) visitor — **Thank You!** ❤️
+
+---
+
+> 💡 _"Building robots is not just coding; it's teaching machines to see and act."_  
