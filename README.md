@@ -50,14 +50,7 @@
 
 ### 📊 Recent Activity
 <!--START_SECTION:activity-->
-1. 🔄 Merged PR [#15](https://github.com/username/repo/pull/15) - Add new feature
-2. ✅ Pushed commit - fix security vulnerability
-3. 🐛 Closed issue [#12](https://github.com/username/repo/issues/12) - Bug fix
-4. 📝 Reviewed PR [#14](https://github.com/username/repo/pull/14)
-5. 🎯 Starred repository awesome-project
-6. 🔄 Created PR [#16](https://github.com/username/repo/pull/16) - Documentation update
-7. ✅ Pushed commit - update dependencies
-8. 🐛 Commented on issue [#13](https://github.com/username/repo/issues/13)
+<!-- 这里会被自动填充 -->
 <!--END_SECTION:activity-->
 
 ---
