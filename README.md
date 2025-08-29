@@ -50,7 +50,6 @@
 
 ### 📊 Recent Activity
 <!--START_SECTION:activity-->
-<!-- 这里会被自动填充 -->
 <!--END_SECTION:activity-->
 
 ---
