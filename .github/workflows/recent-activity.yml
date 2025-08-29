@@ -2,8 +2,8 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # 每12小时运行一次
+  workflow_dispatch: {}       # 支持手动触发
   push:
     branches: [ main, master ]
     paths:
@@ -38,6 +38,5 @@ jobs:
 
       - name: Verify changes
         run: |
-          echo "✅ README更新完成！"
-          echo "📝 查看更改："
-          git show --stat --oneline -1 || true
+          echo "✅ README更新完成（若有变更）"
+          git log --oneline -1 || true
