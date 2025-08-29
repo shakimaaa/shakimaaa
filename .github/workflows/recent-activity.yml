@@ -1,29 +1,82 @@
 name: Update README with Recent Activity
 
 on:
+  # 定时触发：每12小时运行一次
   schedule:
     - cron: "0 */12 * * *"
+  
+  # 手动触发：在GitHub页面可以手动运行
   workflow_dispatch:
+  
+  # 推送触发：当README或工作流文件更改时也运行
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'README.md'
+      - '.github/workflows/update-activity.yml'
 
+# 设置权限（必须要有写权限）
 permissions:
   contents: write
 
 jobs:
   update-readme:
+    name: Update README with GitHub Activity
     runs-on: ubuntu-latest
     
     steps:
+      # 步骤1: 检出代码
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          # 使用GITHUB_TOKEN进行认证
           token: ${{ secrets.GITHUB_TOKEN }}
+          # 获取所有历史记录以便正确比较更改
+          fetch-depth: 0
 
+      # 步骤2: 更新README中的活动记录
       - name: Update README with recent activity
         uses: jamesgeorge007/github-activity-readme@master
         with:
+          # GitHub认证令牌（必需）
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          # 显示的活动记录数量（默认5条）
           MAX_LINES: 8
-          COMMIT_MSG: "chore: update recent activity in README"
+          
+          # 提交信息（可选）
+          COMMIT_MSG: "📊 docs: update recent activity [automated]"
+          
+          # README文件路径（可选，默认为./README.md）
+          README_PATH: "./README.md"
+          
+          # 是否自动更新README（必需）
           UPDATE_README: true
+          
+          # 是否显示提交记录（可选）
+          SHOW_COMMITS: true
+          
+          # 是否显示Issues（可选）
+          SHOW_ISSUES: true
+          
+          # 是否显示Pull Requests（可选）
+          SHOW_PR: true
+          
+          # 排除的仓库（可选，用逗号分隔）
+          # EXCLUDE_REPOS: "repo1,repo2"
+          
+          # 包含的仓库（可选，用逗号分隔）
+          # INCLUDE_REPOS: "repo1,repo2"
+          
+          # 提交者邮箱（可选）
+          COMMITTER_EMAIL: "github-actions[bot]@users.noreply.github.com"
+          
+          # 提交者名称（可选）
+          COMMITTER_NAME: "github-actions[bot]"
 
-      # 不需要额外的提交步骤，上面的action会自动提交
+      # 步骤3: （可选）验证更改
+      - name: Verify changes
+        run: |
+          echo "✅ README更新完成！"
+          echo "📝 查看更改："
+          git show --stat
