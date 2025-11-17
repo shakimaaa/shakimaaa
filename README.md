@@ -69,5 +69,12 @@ RoboMaster vision · UAV perception · Visual SLAM · Multi-sensor fusion · Pla
 
 ### 📊 Recent Activity
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--START_ACTIVITY-->
+<!--END_ACTIVITY-->
+
+---
+
+### 📈 Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shakimaaa&theme=react-dark)
+
