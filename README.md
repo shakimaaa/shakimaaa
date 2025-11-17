@@ -1,4 +1,4 @@
-<h1 align="center">Hi there — I'm Bohao 👋</h1>
+<h1 align="center">Hi there — I'm Beauhao 👋</h1>
 
 <p align="center">
   Robotics & Vision · RoboMaster · C++ · ROS 2  
