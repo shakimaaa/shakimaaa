@@ -2,37 +2,56 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # 每 12 小时跑一次
-  workflow_dispatch: {}       # 支持在 Actions 页面手动触发
+    - cron: "0 */12 * * *" # 每 12 小时运行
+  workflow_dispatch: {} # 手动触发
 
 permissions:
   contents: write
 
 jobs:
   update-readme:
-    name: Update README with GitHub Activity
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Update README with recent activity
-      # ⚠️ 注意这里用的是 v0.3.1 而不是 master
-        uses: jamesgeorge007/github-activity-readme@v0.3.1
-        with:
-          GH_USERNAME: shakimaaa
-          TARGET_FILE: README.md
-          MAX_LINES: 8
-          COMMIT_MSG: "📊 docs: update recent activity [automated]"
-          COMMIT_NAME: github-actions[bot]
-          COMMIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Verify changes
+      # 使用官方 GitHub CLI 拉取最新活动（支持 commit/push）
+      - name: Fetch GitHub Activities
+        id: activity
         run: |
-          echo "✅ README 更新流程已执行（若有变更会产生提交）"
-          git log --oneline -1 || true
+          echo "Fetching recent events..."
+          gh api users/${{ github.repository_owner }}/events \
+            --jq 'map(select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="IssuesEvent" or .type=="IssueCommentEvent"))[:8]' \
+            > activities.json
+          cat activities.json
+
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 生成渲染内容
+      - name: Generate Activity Markdown
+        id: render
+        run: |
+          echo "Generating markdown..."
+          echo "<!--START_ACTIVITY-->" > activity.md
+          jq -r '.[] | "* 🎯 \(.type) → \(.repo.name) at \(.created_at)"' activities.json >> activity.md
+          echo "<!--END_ACTIVITY-->" >> activity.md
+          cat activity.md
+
+      # 替换 README 中的活动区块
+      - name: Update README
+        run: |
+          sed -i '/<!--START_ACTIVITY-->/,/<!--END_ACTIVITY-->/{
+            /<!--START_ACTIVITY-->/r activity.md
+            /<!--START_ACTIVITY-->/!d
+          }' README.md
+
+      # 提交变更
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "📊 Update recent activity (Automated)" || exit 0
+          git push
