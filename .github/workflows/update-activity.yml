@@ -38,5 +38,5 @@ jobs:
 
       - name: Verify changes
         run: |
-          echo "✅ README更新完成（若有变更）"
+          echo "✅ README 更新流程已执行（若有变更会产生提交）"
           git log --oneline -1 || true
