@@ -32,12 +32,10 @@
 
 ---
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+<!-- <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=shakimaaa&show_icons=true&layout=compact&hide_title=true" alt="Top languages" />
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&rank_icon=github&hide_title=true&include_all_commits=true" alt="GitHub stats" />
-</div>
-
-<!-- Optional sections you can uncomment later
+</div> -->
 
 ### 🧠 Research / Interests
 RoboMaster vision · Multi-sensor fusion · Planning & control · Perception for autonomy
