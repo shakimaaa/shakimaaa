@@ -32,19 +32,25 @@
 
 ---
 
-<!-- <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=shakimaaa&show_icons=true&layout=compact&hide_title=true" alt="Top languages" />
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=shakimaaa&show_icons=true&rank_icon=github&hide_title=true&include_all_commits=true" alt="GitHub stats" />
-</div> -->
+</div>
+
+---
 
 ### 🧠 Research / Interests
-RoboMaster vision · Multi-sensor fusion · Planning & control · Perception for autonomy
+
+RoboMaster vision · UAV perception · Visual SLAM · Multi-sensor fusion · Planning & control · Perception for autonomy
+
+---
 
 ### 📓 Projects
+
 - **UAV Perception Stack** · ROS 2, C++, Octomap, SLAM, Nav2  
   Multi-sensor perception & mapping stack for UAVs (stereo/RGB-D, IMU, GPS, ArduPilot).
 
-- **RoboMaster Vision System** · C++, OpenCV, NUC  
+- **RoboMaster Vision System** · C++, OpenCV, NUC / Jetson  
   Real-time detection, tracking and decision modules for RoboMaster robots.
 
 - **imca-vision-web** · Docs & notes  
@@ -54,13 +60,14 @@ RoboMaster vision · Multi-sensor fusion · Planning & control · Perception for
 ---
 
 ### 📰 News
-- **2025** – Building a ROS 2–based UAV perception & mapping stack (SLAM + Octomap + Source control).
+
+- **2025** – Building a ROS 2–based UAV perception & mapping stack (SLAM + Octomap + ros2_control / SourceManager).
 - **2024** – Migrated most of my RoboMaster vision pipeline to ROS 2.
 - **Before** – Playing with computer vision, 3D reconstruction and embedded Linux on Jetson / Pi / NUC / RKxxxx.
 
 ---
 
 ### 📊 Recent Activity
-- Writing perception & mapping nodes in **ROS 2** for UAV navigation.
-- Experimenting with **visual SLAM**, sensor fusion and map-based planning.
-- Deploying and tuning pipelines on **Jetson Orin / Raspberry Pi 5**.
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
