@@ -2,13 +2,8 @@ name: Update README with Recent Activity
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # 每12小时运行一次
-  workflow_dispatch: {}       # 支持手动触发
-  push:
-    branches: [ main, master ]
-    paths:
-      - 'README.md'
-      - '.github/workflows/update-activity.yml'
+    - cron: "0 */12 * * *"   # 每 12 小时跑一次
+  workflow_dispatch: {}       # 支持在 Actions 页面手动触发
 
 permissions:
   contents: write
@@ -25,7 +20,8 @@ jobs:
           fetch-depth: 0
 
       - name: Update README with recent activity
-        uses: jamesgeorge007/github-activity-readme@master
+      # ⚠️ 注意这里用的是 v0.3.1 而不是 master
+        uses: jamesgeorge007/github-activity-readme@v0.3.1
         with:
           GH_USERNAME: shakimaaa
           TARGET_FILE: README.md
