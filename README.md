@@ -1,7 +1,7 @@
-<h1 align="center">Hi there — I'm Beauhao 👋</h1>
+<h1 align="center">Hi there — I'm Bohao 👋</h1>
 
 <p align="center">
-  Robotics & Vision · RoboMaster · C++ · ROS2  
+  Robotics & Vision · RoboMaster · C++ · ROS 2  
   <br/>
   <a href="mailto:zbohao7@gmail.com">zbohao7@gmail.com</a> ·
   <a href="https://imca-vision-web.readthedocs.io/">imca-vision-web</a>
@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white" />
   <img src="https://img.shields.io/badge/ros2_control-0A66C2?style=flat-square" />
   <img src="https://img.shields.io/badge/Nav2-6A5ACD?style=flat-square" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
@@ -24,10 +24,11 @@
 ---
 
 ### 🔭 About me
-- Once committed to **vision systems** for **RoboMaster**.
-- Working on **vision SLAM**
-- Learning **ros2_control** & **SLAM**.
-- Ask me about **C++ / ROS2 / RoboMaster / SLAM**.
+
+- Previously focused on **vision systems** for **RoboMaster**.
+- Currently building **visual SLAM** and perception modules for robotics.
+- Learning and tinkering with **ros2_control**, **navigation (Nav2)** and **SLAM**.
+- Ask me about **C++ / ROS 2 / RoboMaster / SLAM**.
 
 ---
 
@@ -42,12 +43,26 @@
 RoboMaster vision · Multi-sensor fusion · Planning & control · Perception for autonomy
 
 ### 📓 Projects
-- TBD
+- **UAV Perception Stack** · ROS 2, C++, Octomap, SLAM, Nav2  
+  Multi-sensor perception & mapping stack for UAVs (stereo/RGB-D, IMU, GPS, ArduPilot).
+
+- **RoboMaster Vision System** · C++, OpenCV, NUC  
+  Real-time detection, tracking and decision modules for RoboMaster robots.
+
+- **imca-vision-web** · Docs & notes  
+  Documentation for my vision / robotics experiments and tools.  
+  👉 https://imca-vision-web.readthedocs.io/
+
+---
 
 ### 📰 News
-- TBD
+- **2025** – Building a ROS 2–based UAV perception & mapping stack (SLAM + Octomap + Source control).
+- **2024** – Migrated most of my RoboMaster vision pipeline to ROS 2.
+- **Before** – Playing with computer vision, 3D reconstruction and embedded Linux on Jetson / Pi / NUC / RKxxxx.
+
+---
 
 ### 📊 Recent Activity
-(如果你用 actions 生成动态，可以在此引入活动区块)
-
--->
+- Writing perception & mapping nodes in **ROS 2** for UAV navigation.
+- Experimenting with **visual SLAM**, sensor fusion and map-based planning.
+- Deploying and tuning pipelines on **Jetson Orin / Raspberry Pi 5**.
