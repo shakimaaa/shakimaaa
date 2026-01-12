@@ -61,6 +61,7 @@ RoboMaster vision · UAV perception · Visual SLAM · Multi-sensor fusion · Pla
 
 ### 📰 News
 
+- **2026** - Dedicated to perception and planning for quadruped robots. Research on transformer and reinforcement learning.
 - **2025** – Building a ROS 2–based UAV perception & mapping stack (SLAM + Octomap + ros2_control / SourceManager).
 - **2024** – Migrated most of my RoboMaster vision pipeline to ROS 2.
 - **Before** – Playing with computer vision, 3D reconstruction and embedded Linux on Jetson / Pi / NUC / RKxxxx.
