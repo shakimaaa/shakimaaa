@@ -32,13 +32,6 @@
 
 ---
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats-lyart-nine-70.vercel.app/api?username=shakimaaa&show_icons=true&rank_icon=github&hide_title=true&include_all_commits=true" />
-  <img height="165" src="https://github-readme-stats-lyart-nine-70.vercel.app/api/top-langs?username=shakimaaa&show_icons=true&layout=compact&hide_title=true" />
-</p>
-
----
-
 ### 🧠 Research / Interests
 
 RoboMaster vision · UAV perception · Visual SLAM · Multi-sensor fusion · Planning & control · Perception for autonomy
